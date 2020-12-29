@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "id": "tools",
+      "submenu": [
+        {
+          "label": "DDL для PostgreSQL",
+          "id": "tools.ddlpostrgesql",
+          "submenu": [
+            { "label": "Создать файлы DDL", "id": "tools.ddlpostrgesql.generate", "command": "psqlddl:generate" },
+            { "type": "separator" },
+            { "label": "Конфигурация...", "id": "tools.ddlpostrgesql.configure", "command": "psqlddl:configure" }
+          ]
+        }
+      ]
+    }
+  ]
+}
